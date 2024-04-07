@@ -1,0 +1,17 @@
+Module Module1 
+Sub Main() 
+Dim perc As Integer 
+Console.Write("Enter Percentage:") 
+perc = Val(Console.ReadLine()) 
+If (perc < 40) Then 
+Console.WriteLine("Fail") 
+ElseIf ((perc > 40) And (perc < 60)) Then 
+Console.WriteLine("Pass Class") 
+ElseIf ((perc >= 60) And (perc < 75)) Then 
+Console.WriteLine("First Class") 
+ElseIf (perc >= 75) Then 
+Console.WriteLine("Distinction") 
+End If 
+Console.ReadLine() 
+End Sub 
+End Module 
